@@ -23,10 +23,6 @@ public class PurchaseConfirmationModalTask extends PurchaseConfirmationModalPage
         assertEquals("O título do modal está incorreto.", "Thank you for your purchase!", t);
     }
 
-    public String getBodyText() {
-        return body_text.getText();
-    }
-
     public void pressOkButton() {
         ok_button.click();
     }

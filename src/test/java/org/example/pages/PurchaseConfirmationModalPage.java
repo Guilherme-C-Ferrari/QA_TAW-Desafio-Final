@@ -10,9 +10,6 @@ public class PurchaseConfirmationModalPage {
     @FindBy(xpath = "//h2[text()='Thank you for your purchase!']")
     public WebElement title;
 
-    @FindBy(css = "div.sweet-alert.showSweetAlert.visible p")
-    public WebElement body_text;
-
     @FindBy(xpath = "//button[text()='OK']")
     public WebElement ok_button;
 }

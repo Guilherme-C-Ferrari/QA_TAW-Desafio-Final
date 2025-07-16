@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/reports/cucumber.html
+/reports/cucumber.json
+/reports/cucumber.xml

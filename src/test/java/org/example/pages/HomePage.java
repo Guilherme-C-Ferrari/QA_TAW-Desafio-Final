@@ -7,6 +7,6 @@ public class HomePage {
     @FindBy(xpath = "//a[text()=\"Monitors\"]")
     public static WebElement monitors_category;
 
-    @FindBy(className = "hrefch")
+    @FindBy(xpath = "//a[text()=\"Apple monitor 24\"]")
     public static WebElement purchasable_item;
 }

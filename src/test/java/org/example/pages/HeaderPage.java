@@ -8,11 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 public class HeaderPage {
     private WebDriver driver;
 
-    public HeaderPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
-
     @FindBy(xpath = "//a[text()=\"Home\"]")
     public WebElement home_link;
 

@@ -12,4 +12,12 @@ public class HomeTask extends HomePage {
         this.driver = driver;
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 10), this);
     }
+
+    public void accessMonitorsCategory() {
+        monitors_category.click();
+    }
+
+    public void openProductPage() {
+        purchasable_item.click();
+    }
 }

@@ -17,7 +17,7 @@ public class ProductTask extends ProductPage {
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 10), this);
     }
 
-    public void adicionarProdutoAoCarrinho() {
+    public void addProductToCart() {
         add_to_cart_button.click();
 
         // Espera o alerta aparecer por até 5 segundos

@@ -1,5 +1,6 @@
 # language: pt
 
+@Global
 Funcionalidade: Compra de um monitor
 
   Contexto:

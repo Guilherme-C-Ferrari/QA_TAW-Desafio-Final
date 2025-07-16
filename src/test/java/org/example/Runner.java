@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/teste/resources/features",
+        features = "src/test/resources/features",
         glue = "org.example.steps",
         tags = "@Global",
         plugin = {
@@ -16,4 +16,6 @@ import org.junit.runner.RunWith;
                 "junit:reports/cucumber.xml",
         }
 )
-public class Runner {}
+public class Runner {
+
+}
